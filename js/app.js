@@ -1,6 +1,6 @@
 const form = document.querySelector ('form');
-
 const responseElement = document.querySelector ('.response');
+
 
 const food = ["pizza",
 "fries",
@@ -22,20 +22,29 @@ const food = ["pizza",
 "noodles",
 "roti"];
 
+
+const capitalize = (string) => {
+  string = string.charAt(0).toUpperCase(0) +string.slice(1).toLowerCase();
+  return string;
+}
+
+
 const submitHandler = (event) => {
   event.preventDefault ();
   const number = form.number.value;
   console.log (number);
 
-  let output = 'You mixed this: ';
+  let output = 'This is your mixed food: ';
   let i = 0;
   while (i < number) {
-    output += ` ${food [Math.floor(Math.random()* food.length)]},`;
+    foodList = food [Math.floor(Math.random()* food.length)];
+    output += ` ${capitalize(foodList)},`;
     i++;
 
   }
-  
-  responseElement.textContent = output;
+
+
+responseElement.textContent = output;
 
 }
 

@@ -27,7 +27,7 @@ Troubleshooting:
 
 
 Attributions:
-1. Tony Grimes for the <a href="https://github.com/sait-wbdv/in-class-w22/blob/main/02-15-for-loops/06-phrase-generator-starter/js/app.js" target="_blank"> starter code </a>.
+1. Tony Grimes for the <a href="https://github.com/sait-wbdv/in-class-w22/blob/main/02-15-for-loops/06-phrase-generator-starter/js/app.js" target="_blank"> phrase generator starter code </a> and the <a href="https://github.com/sait-wbdv/in-class-w22/blob/main/02-14-arrays-strings/01-capitalize-function-starter/js/main.js" target="_blank"> capitalize starter code </a>.
     - Changed the "for loop" to a "while loop" as to not copy the code entirely.
 
 2. MDN Web Docs for the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while" target="_blank"> While loop tutorial</a>.
