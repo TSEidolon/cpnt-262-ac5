@@ -39,7 +39,7 @@ const submitHandler = (event) => {
   while (i < number) {
     foodList = food [Math.floor(Math.random()* food.length)];
     output += ` ${capitalize(foodList)},`;
-    i++; // will increment i + 1 pero while loop ran.
+    i++; // will increment at "i + 1" per while loop ran. 
 
   }
 
